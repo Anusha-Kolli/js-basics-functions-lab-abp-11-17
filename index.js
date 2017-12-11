@@ -25,7 +25,7 @@ function calculatesFarePrice(start, destination)
 {
    var distance = distanceTravelledInFeet(start, destination);
    if(distance< 400){
-     return "gives customer a free sample";
+     return "0";
    }
    else if(distance > 400 & distance < 2000){
      var fare= distance*2;
