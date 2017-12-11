@@ -30,6 +30,9 @@ function calculatesFarePrice(start, destination)
    else if(distance > 400 & distance < 2000){
      var fare= distance*2;
      return fare;
+   }
+   else if(distance > 2000 & distance < 2500){
+     return "flat flare over 2000 feet is 25 dollars";
 
    }
 }
