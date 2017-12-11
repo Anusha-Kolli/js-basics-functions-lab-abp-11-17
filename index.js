@@ -23,7 +23,7 @@ function distanceTravelledInFeet(arg1,arg2){
 
 function calculatesFarePrice(start, destination)
 {
-   var distance = distanceTravelledInFeet(arg1,arg2);
+   var distance = distanceTravelledInFeet(start,destination);
    if(distance< 400){
      return "the first four hundred feet are free!";
    }
