@@ -27,4 +27,9 @@ function calculatesFarePrice(start, destination)
    if(distance< 400){
      return "the first four hundred feet are free!";
    }
+   else if(distance > 400 & distance < 2000){
+     var fare= distance*2;
+     return fare;
+
+   }
 }
