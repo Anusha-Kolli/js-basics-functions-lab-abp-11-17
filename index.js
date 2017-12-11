@@ -32,7 +32,7 @@ function calculatesFarePrice(start, destination)
      return fare;
    }
    else if(distance > 2000 & distance < 2500){
-     return "flat flare over 2000 feet is 25 dollars";
+     return "25";
    }
    else{
      return "cannot travel that far";
